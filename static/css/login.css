@@ -1,0 +1,138 @@
+#img-logo{
+    height:4rem;
+}
+.navbar-brand{
+    padding: 0rem;
+    padding-left: 1rem;
+}
+.nav-item{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.navbar{
+    background-color: #A1C7EB;
+}
+.nav-item a{
+    color: #ffffff;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.2rem;
+}
+.navbar-nav{
+    padding-right: 1rem;
+}
+.footer{
+    background-color: #A1C7EB;
+    color: #ffffff;
+    padding: 1rem 4rem;
+}
+.newsletter-label{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+.btn-newsletter{
+    background-color: #ffffff;
+    color: #0764A7;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.2rem;
+    border-radius: 0;
+}
+.input-newsletter{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.2rem;
+    border-radius: 0;
+    background-color: rgba(254, 254, 254, 0.33);
+    height: 4rem;
+}
+.contact li a{
+    color: #ffffff;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+.contact-p{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.contact li{
+    margin-bottom: 1.5rem;
+}
+.fa-facebook, .fa-mobile, .fa-envelope{
+    margin-right: 1rem;
+}	
+
+.yellow-input {
+    background-color: rgba(239, 201, 38, 0.6);
+    color: white; /* Cambia el color del texto a blanco */
+}
+
+.yellow-input::placeholder {
+    color: white; /* Cambia el color del texto predeterminado a blanco */
+}
+
+.yellow-input:focus {
+    background-color: rgba(239, 201, 38, 0.6);
+}
+
+.login-divider {
+    border-top: 2px solid #A1C7EB; /* Define el color y el grosor de la línea */
+    width: 100%; /* Ajusta la anchura de la línea al 100% del contenedor */
+    margin: 20px 0; /* Añade espacio alrededor de la línea */
+}
+
+footer {
+    position: relative; /* Cambia la posición del footer a relativa */
+}
+
+.btn-yellow {
+    background-color: rgba(239, 201, 38, 1);
+    border-color: rgba(239, 201, 38, 1);
+    color: #ffffff;
+}
+
+.btn-yellow:hover {
+    background-color: #FF8C00;
+    border-color: #FF8C00;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Esto asegura que el cuerpo ocupe al menos toda la altura de la ventana del navegador */
+}
+
+main {
+    flex: 1; /* Esto hace que el main ocupe el espacio restante vertical entre el header y el footer */
+}
+
+.user-text {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #EFC926;
+}
+
+.vet-text {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #EFC926;
+}
+
+.login-container {
+    text-align: center; /* Centra el contenido horizontalmente */
+    margin-top: 20px; /* Agrega un espacio encima del contenedor */
+}
+
+.user-subtext,
+.vet-subtext {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px; /* Tamaño de fuente más pequeño */
+    color: #EFC926; /* Color de texto amarillo */
+    margin-top: 5px; /* Espacio entre el texto principal y el texto adicional */
+    font-weight: bold;
+}
+
