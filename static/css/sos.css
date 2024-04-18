@@ -1,0 +1,46 @@
+/* Estilo para el contenedor */
+.cel-sos {
+    position: relative; /* Posicionamiento relativo */
+    font-family: 'Fira Sans', sans-serif; /* Estilo de fuente */
+    font-size: 2rem; 
+    background-color: #E4532C;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-left: 10%; 
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    margin-right: 50%; 
+}
+
+/* Estilo para el nombre */
+.tipo-contacto {
+    position: absolute;
+    top: -80%; 
+    left: 20px; 
+    color: #E4532C; /* Color rojo */  
+}
+
+/* Estilo para el número */
+.cuadro-sos {
+    position: absolute; 
+    bottom: 10px; 
+    left: 20px; 
+}
+
+#SOSDog {
+    position: absolute; 
+    top: 40%; 
+    right: 15%; 
+    transform: scale(2.5);
+    max-width: 200px; 
+    z-index: 10; 
+}
+
+
+footer {
+    margin-top: 235px; 
+}
+
+
