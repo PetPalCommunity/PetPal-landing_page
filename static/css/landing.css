@@ -1,0 +1,116 @@
+main{
+    padding:0;
+    margin:0;
+    width: 100vw;
+}
+.block{
+    display: block !important;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    min-width: 100%;
+}
+.container-2{
+    display: relative;
+    flex-direction: row;
+    min-width: 100%;
+}
+@media only screen and (max-width: 1000px){
+    .container{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    #pic1, .right{
+        width: 100vw;
+    }
+}
+#logoColor{
+    width: 20rem;
+    height: 20rem;
+    align-items: center;
+}
+.right, .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+.welcomeText{
+    color: #EFC926;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+.signup, .signin{
+    margin: 2px;
+    padding: 10px;
+    border-radius: 6px;
+    border-color: 0;
+    font-size: 1.5rem;
+
+}
+.signup{
+    background-color: #EFC926;
+    color:white;
+    border-width: 0;
+}
+.signin{
+    /* border-style: none; */
+    background-color: white;
+    color: #EFC926;
+    border: 4px solid #EFC926;
+}
+.socialCommunity{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 3rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: left;
+}
+.grid-col {
+    color: #A1C7EB;
+  border-bottom: 0.5rem solid lightgray;
+  padding: 20px;
+  font-size: 30px;
+  text-align: left;
+}
+
+
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.list-item::marker {
+  content: '> ';
+    color: #A1C7EB;
+  font-size: 1.2em;
+}
