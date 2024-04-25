@@ -8,7 +8,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="/static/css/main.css"/>
+    <link rel="stylesheet" href="static/css/main.css" />
+    <link rel="stylesheet" href="static/css/landing.css" />
     <script
       src="https://kit.fontawesome.com/acb97cbc1a.js"
       crossorigin="anonymous"
@@ -22,7 +23,7 @@
           <a class="navbar-brand text-white" href="" id="brand-principal">
             <img
               id="img-logo"
-              src="/static/img/LogoBlanco.png"
+              src="static/img/LogoBlanco.png"
               alt="RemindMe Logo"
             />
           </a>
@@ -53,74 +54,163 @@
         </div>
       </nav>
     </header>
-    <main>
-      <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <img src="/static/img/goldenAndGirl.jpg" alt="Foto" class="img-fluid ">
-            </div>
-            <div class="col-md-6">
-                <div class="text-center">
-                    <div class="mb-4">
-                        <img src="ruta/al/logo.png" alt="Logo" class="img-fluid">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <main>
+           <!-- primera franja  -->
+            <div class="container">
+                <div class="left">
+                    <img src="static/img/Rectangle 13.png" id="pic1" alt="">
+                </div>
+                <div class="right">
+                    <img src="static/img/LogoColor.png" id="logoColor" alt="">
+                    <div class="welcomeText">
+                        <p>Join PetPal, the largest online community of pets and their owners.</p>
                     </div>
-                    <div class="mb-4">
-                        <p class="lead">Texto de la frase aquí</p>
+                    <div style="display: flex; flex-direction: column;">
+                        <button type="" class="signup">SIGN UP USING EMAIL</button>
+                        <button type="" class="signin">Already have an account? Sign in</button>
                     </div>
-                    <div class="mb-4">
-                        <button class="btn btn-primary mr-2">Botón 1</button>
-                        <button class="btn btn-secondary">Botón 2</button>
+                    <div style="padding: 2rem;">
+                        <p style="color: gray;">By creating an account, you accept PetPalCommunity.com terms of use</p>
                     </div>
-                    <div class="mb-4">
-                        <i class="fas fa-icono1 fa-3x mr-2"></i>
-                        <i class="fas fa-icono2 fa-3x"></i>
+                    <div style="display: flex; flex-direction: row">
+                        <img src="static/img/GooglePlay.png" style="height: 4rem;" alt="">
+                        <img src="static/img/AppStore.png" style="height: 4.3rem" alt="">
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    </main>
 
-    <footer>
-      <div class="d-md-flex justify-content-between footer">
-        <div class="newsletter">
-          <form>
-            <label for="exampleInputEmail1" class="form-label newsletter-label"
-              >Subscribe to our newsletter</label
-            >
-            <div class="mb-3 input-group ">
-              <input
-                type="text"
-                class="form-control input-newsletter"
-                placeholder="Email Adress"
-                aria-label="Email Adress"
-                aria-describedby="button-addon2"
-              />
-              <button
-                class="btn btn-light btn-newsletter"
-                type="button"
-                id="button-addon2"
-              >
-                Submit
-              </button>
+            <!-- segunda franja -->
+            <div class="container" style="background-color: #F491B0;">
+                <div class="left">
+                    <p class="socialCommunity">PetPal Community, the social pet community</p>
+                    <ul style="color: white; font-size: 1.5rem; margin: 3rem">
+                        <li>Find your nearest vet</li>
+                        <li>Learn about and discuss topics in our communities</li>
+                        <li>Meet other awesome pet parents via community organized walks & events</li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <img src="static/img/celular perfil.png" alt="">
+                </div>
             </div>
-          </form>
-        </div>
-        <div class="copyright">
-          <p class="contact-p">CONTACT US:</p>
-            <ul class="list-unstyled contact">
-              <li>
-                <a href="#" class="text-decoration-none"><i class="fa-brands fa-facebook fa-2xl"></i>facebook.com/petcommunity</a>
-              </li>
-              <li>
-                <a href="#" class="text-decoration-none"><i class="fa-solid fa-mobile fa-2xl"></i>+51 976 381 377</a>
-              </li>
-              <li>
-                <a href="#" class="text-decoration-none"><i class="fa-regular fa-envelope fa-2xl"></i>support@petcommunity.com</a>
-              </li>
-            </ul>
-        </div>
-      </div>
-    </footer>
-  </body>
+
+            <!-- tercera franja-->
+            <div class="container" style="display: relative;">
+                <div class="left">
+                    <img src="static/img/Celular2.png" alt="" style="width: 40rem;">
+                </div>
+
+                <div class="right">
+                    <div style="color: #0764A7; font-weight: bold;">
+                        <h1>Benefit from animal tips</h1>
+                    </div>
+                    <div class="grid-container">
+                        <div class="grid-col" style="border-bottom: 0.5rem solid #EFC926;">Forum</div> 
+                        <div class="grid-col">Breeds</div> 
+                        <div class="grid-col">Communities</div> 
+
+                        <div class="grid-item"><li class="list-item">Dog</li></div> 
+                        <div class="grid-item"><li class="list-item">Fish</li></div> 
+                        <div class="grid-item"><li class="list-item">Horse</li></div> 
+                        <div class="grid-item"><li class="list-item">Cat</li></div> 
+                        <div class="grid-item"><li class="list-item">Bird</li></div> 
+                        <div class="grid-item"><li class="list-item">Insect</li></div> 
+                        <div class="grid-item"><li class="list-item">Reptile</li></div> 
+                        <div class="grid-item"><li class="list-item">Rodant</li></div> 
+                        <div class="grid-item"><li class="list-item">Other</li></div> 
+                    </div>
+                    <div>
+                        <button type="" class="signup" style="margin: 2rem; padding-left: 2rem; padding-right: 2rem;">ACESS FORUM</button>
+                    </div>
+                </div>
+            </div>
+            <!-- cuarta franja -->
+            <div class="container" style="background-color: #36A568;">
+                <div class="container-center">
+                    <h1 style="margin: 3rem; font-weight: bold; color: white;">Create your profile now!</h1>
+                    <button type="" class="signup">Create my profile</button>
+                    <img src="static/img/ComputadorasPerfil.png" style="width: 80rem; height: 40rem;" alt="">
+                </div>
+            </div>
+        </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer>
+            <div class="d-md-flex justify-content-between footer">
+                <div class="newsletter">
+                    <form>
+                        <label for="exampleInputEmail1" class="form-label newsletter-label"
+                        >Subscribe to our newsletter</label
+                        >
+                        <div class="mb-3 input-group ">
+                            <input
+                            type="text"
+                            class="form-control input-newsletter"
+                            placeholder="Email Adress"
+                            aria-label="Email Adress"
+                            aria-describedby="button-addon2"
+                        />
+                            <button
+                                class="btn btn-light btn-newsletter"
+                                type="button"
+                                id="button-addon2"
+                            >
+                                Submit
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="copyright">
+                    <p class="contact-p">CONTACT US:</p>
+                    <ul class="list-unstyled contact">
+                        <li>
+                            <a href="#" class="text-decoration-none"><i class="fa-brands fa-facebook fa-2xl"></i>facebook.com/petcommunity</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-decoration-none"><i class="fa-solid fa-mobile fa-2xl"></i>+51 976 381 377</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-decoration-none"><i class="fa-regular fa-envelope fa-2xl"></i>support@petcommunity.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>
